@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
   res.write("hello world");
   res.end(" karthik loverboy");
 });
-server.listen("3101", "192.168.0.120", () => {
+server.listen("3101",() => {
   console.log("server is running");
 });
