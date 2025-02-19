@@ -6,5 +6,5 @@ const server = http.createServer((req, res) => {
   res.end(" karthik loverboy");
 });
 server.listen("3101",() => {
-  console.log("server is running");
+  console.log(" ");
 });
